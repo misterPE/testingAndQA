@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190707 13:29:39.030" rpa="false">
-<suite id="s1" name="Monscript" source="C:\development\robot-scripts\first-script\tests\monscript.robot">
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190707 15:45:51.046" rpa="false">
+<suite id="s1" name="Monscript" source="C:\dev\robot-scripts\testingAndQA\robotframework-selenium\learnHowToBrowseWebsite\tests\monscript.robot">
 <test id="s1-t1" name="Guest must sign in to check out">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -8,16 +8,16 @@
 <arg>http://www.amazon.com</arg>
 <arg>ie</arg>
 </arguments>
-<msg timestamp="20190707 13:29:39.647" level="INFO">Opening browser 'ie' to base url 'http://www.amazon.com'.</msg>
-<status status="PASS" starttime="20190707 13:29:39.647" endtime="20190707 13:29:44.512"></status>
+<msg timestamp="20190707 15:45:51.695" level="INFO">Opening browser 'ie' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" starttime="20190707 15:45:51.695" endtime="20190707 15:45:56.536"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3sec</arg>
 </arguments>
-<msg timestamp="20190707 13:29:47.523" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20190707 13:29:44.513" endtime="20190707 13:29:47.523"></status>
+<msg timestamp="20190707 15:45:59.544" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190707 15:45:56.536" endtime="20190707 15:45:59.544"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -25,37 +25,37 @@
 <arg>id=twotabsearchtextbox</arg>
 <arg>rameur concept2</arg>
 </arguments>
-<msg timestamp="20190707 13:29:47.523" level="INFO">Typing text 'rameur concept2' into text field 'id=twotabsearchtextbox'.</msg>
-<status status="PASS" starttime="20190707 13:29:47.523" endtime="20190707 13:29:49.876"></status>
+<msg timestamp="20190707 15:45:59.544" level="INFO">Typing text 'rameur concept2' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20190707 15:45:59.544" endtime="20190707 15:46:04.261"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>css=.nav-search-submit &gt; input:nth-child(2)</arg>
 </arguments>
-<msg timestamp="20190707 13:29:49.876" level="INFO">Clicking button 'css=.nav-search-submit &gt; input:nth-child(2)'.</msg>
-<status status="PASS" starttime="20190707 13:29:49.876" endtime="20190707 13:29:52.985"></status>
+<msg timestamp="20190707 15:46:04.261" level="INFO">Clicking button 'css=.nav-search-submit &gt; input:nth-child(2)'.</msg>
+<status status="PASS" starttime="20190707 15:46:04.261" endtime="20190707 15:46:08.465"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3sec</arg>
 </arguments>
-<msg timestamp="20190707 13:29:55.993" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20190707 13:29:52.985" endtime="20190707 13:29:55.993"></status>
+<msg timestamp="20190707 15:46:11.473" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190707 15:46:08.465" endtime="20190707 15:46:11.473"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190707 13:29:55.993" endtime="20190707 13:29:59.148"></status>
+<status status="PASS" starttime="20190707 15:46:11.473" endtime="20190707 15:46:14.665"></status>
 </kw>
 <doc>Present some information about this test case</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="PASS" starttime="20190707 13:29:39.647" endtime="20190707 13:29:59.148" critical="yes"></status>
+<status status="PASS" starttime="20190707 15:45:51.695" endtime="20190707 15:46:14.665" critical="yes"></status>
 </test>
 <doc>Present some information about this test suite</doc>
-<status status="PASS" starttime="20190707 13:29:39.046" endtime="20190707 13:29:59.155"></status>
+<status status="PASS" starttime="20190707 15:45:51.062" endtime="20190707 15:46:14.665"></status>
 </suite>
 <statistics>
 <total>
